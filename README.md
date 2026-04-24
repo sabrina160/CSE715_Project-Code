@@ -33,9 +33,9 @@ We use a large-scale Spotify dataset from Kaggle: https://www.kaggle.com/dataset
 
 # Methodology
 - Feature Processing
-  - Audio features → standardized
-Lyrics → embedded using Sentence-BERT
-Genres → one-hot encoded
+  - Audio features &rarr standardized
+  - Lyrics → embedded using Sentence-BERT
+  - Genres → one-hot encoded
 🔹 Representation Learning
 Basic VAE → dense latent vectors
 ConvVAE → captures temporal/audio structure
