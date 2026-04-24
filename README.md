@@ -33,7 +33,7 @@ We use a large-scale Spotify dataset from Kaggle: https://www.kaggle.com/dataset
 
 # Methodology
 - Feature Processing
-  - Audio features &rarr standardized
+  - Audio features → standardized
   - Lyrics → embedded using Sentence-BERT
   - Genres → one-hot encoded
 🔹 Representation Learning
