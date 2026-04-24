@@ -63,6 +63,7 @@ Final CVAE Performance:
 - NMI: 0.1603
 - ARI: 0.1647
 - Purity: 0.4173
+
 It demonstrates stronger cluster separability and interpretability
 
 # Visualization
@@ -76,11 +77,11 @@ These show:
 - Improved structure vs baseline
 
 # Tech Stack
-Python
-PyTorch
-Scikit-learn
-SentenceTransformers (BERT)
-Matplotlib / Seaborn
+- Python
+- PyTorch
+- Scikit-learn
+- SentenceTransformers (BERT)
+- Matplotlib / Seaborn
 
 # Key Insight
 Disentanglement + multimodal fusion is crucial for learning meaningful music representations.
@@ -96,6 +97,6 @@ The β-VAE + conditioning significantly improves clustering quality compared to:
 - Integration with audio waveform models
 
 # Authors
-Sabrina Jahan
-Moin Mostakim
+Sabrina Jahan\\
+Moin Mostakim\\
 BRAC University, Bangladesh
