@@ -55,7 +55,7 @@ We use a large-scale Spotify dataset from Kaggle: https://www.kaggle.com/dataset
 # Results Summary
 The progressive approach shows consistent improvement:
 - Basic VAE →	Better than PCA baseline
-- ConvVAE →	Improved feature richness
+- ConvVAE →	It does not consistently improve clustering performance compared to the basic VAE
 - CVAE (β-VAE) → Best clustering performance
 
 Final CVAE Performance:
