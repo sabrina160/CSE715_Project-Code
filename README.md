@@ -97,6 +97,7 @@ The β-VAE + conditioning significantly improves clustering quality compared to:
 - Integration with audio waveform models
 
 # Authors
-Sabrina Jahan\\
-Moin Mostakim\\
+Sabrina Jahan\
+Moin Mostakim\
 BRAC University, Bangladesh
+
