@@ -52,3 +52,50 @@ We use a large-scale Spotify dataset from Kaggle: https://www.kaggle.com/dataset
   - Normalized Mutual Information (NMI)
   - Cluster Purity
 
+# Results Summary
+The progressive approach shows consistent improvement:
+Basic VAE →	Better than PCA baseline
+ConvVAE →	Improved feature richness
+CVAE (β-VAE) → Best clustering performance
+
+Final CVAE Performance:
+- Silhouette Score: 0.3421
+- NMI: 0.1603
+- ARI: 0.1647
+- Purity: 0.4173
+It demonstrates stronger cluster separability and interpretability
+
+# Visualization
+We analyze latent spaces using:
+- t-SNE
+- UMAP
+
+These show:
+- More compact clusters
+- Better genre separation
+- Improved structure vs baseline
+
+# Tech Stack
+Python
+PyTorch
+Scikit-learn
+SentenceTransformers (BERT)
+Matplotlib / Seaborn
+
+# Key Insight
+Disentanglement + multimodal fusion is crucial for learning meaningful music representations.
+
+The β-VAE + conditioning significantly improves clustering quality compared to:
+- PCA
+- Standard Autoencoders
+- Spectral Clustering
+
+# Future Work
+- Better multilingual lyric embeddings
+- Real-time recommendation systems
+- Integration with audio waveform models
+
+# Authors
+Sabrina Jahan
+Moin Mostakim
+BRAC University, Bangladesh
