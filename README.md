@@ -12,7 +12,14 @@ To address this, this project proposes a 3-stage progressive learning pipeline:
 - Convolutional VAE (ConvVAE) -> captures local audio patterns
 - Conditional / Beta-VAE (CVAE) -> enables disentangled multimodal learning
 
-The final model integrates:
+The final model (Conditional / Beta-VAE (CVAE)) integrates:
 - Audio features
 - Lyrics embeddings
 - Genre labels (as conditioning)
+
+# Key Contributions
+- Progressive VAE pipeline for music clustering
+- Multi-modal fusion of audio + lyrics
+- Disentangled latent representation using β-VAE
+- Comprehensive clustering evaluation across multiple methods
+- Extensive hyperparameter tuning strategy
