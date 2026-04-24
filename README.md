@@ -9,8 +9,8 @@ Traditional clustering methods struggle with music data due to:
 
 To address this, this project proposes a 3-stage progressive learning pipeline:
 - Basic VAE -> learns latent representation from audio
-- Convolutional VAE (ConvVAE) -> captures local audio patterns
-- Conditional / Beta-VAE (CVAE) -> enables disentangled multimodal learning
+- Convolutional VAE (ConvVAE) -> captures local audio structures and enables multimodal fusion with lyrics
+- Conditional / Beta-VAE (CVAE) -> learns disentangled multimodal representations with genre conditioning
 
 The final model (Conditional / Beta-VAE (CVAE)) integrates:
 - Audio features
@@ -30,3 +30,23 @@ We use a large-scale Spotify dataset from Kaggle: https://www.kaggle.com/dataset
 - Audio features (danceability, energy, tempo, etc.)
 - Lyrics
 - Genre labels
+
+# Methodology
+- Feature Processing
+  - Audio features → standardized
+Lyrics → embedded using Sentence-BERT
+Genres → one-hot encoded
+🔹 Representation Learning
+Basic VAE → dense latent vectors
+ConvVAE → captures temporal/audio structure
+CVAE → conditioned on genre + β-disentanglement
+🔹 Clustering Methods
+K-Means
+Agglomerative Clustering
+DBSCAN
+🔹 Evaluation Metrics
+Silhouette Score
+Adjusted Rand Index (ARI)
+Normalized Mutual Information (NMI)
+Cluster Purity
+
