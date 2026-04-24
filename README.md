@@ -23,3 +23,10 @@ The final model (Conditional / Beta-VAE (CVAE)) integrates:
 - Disentangled latent representation using β-VAE
 - Comprehensive clustering evaluation across multiple methods
 - Extensive hyperparameter tuning strategy
+
+# Dataset
+We use a large-scale Spotify dataset from Kaggle: https://www.kaggle.com/datasets/serkantysz/550k-spotify-songs-audio-lyrics-and-genres
+- ~550K songs (subset of 25K used)
+- Audio features (danceability, energy, tempo, etc.)
+- Lyrics
+- Genre labels
